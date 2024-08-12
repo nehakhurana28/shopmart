@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Toys Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Soft Toys Shop</h1>
+    </header>
+    
+    <main>
+        <div class="products">
+            <div class="product">
+                <img src="images/teddy-bear.jpg" alt="Teddy Bear">
+                <h2>Teddy Bear</h2>
+                <p>Price: ₹499</p>
+                <button onclick="addToCart('Teddy Bear', 499)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/unicorn.jpg" alt="Unicorn">
+                <h2>Unicorn</h2>
+                <p>Price: ₹599</p>
+                <button onclick="addToCart('Unicorn', 599)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/elephant.jpg" alt="Elephant">
+                <h2>Elephant</h2>
+                <p>Price: ₹399</p>
+                <button onclick="addToCart('Elephant', 399)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/rabbit.jpg" alt="Rabbit">
+                <h2>Rabbit</h2>
+                <p>Price: ₹449</p>
+                <button onclick="addToCart('Rabbit', 449)">Add to Cart</button>
+            </div>
+        </div>
+        
+        <h2>Your Cart</h2>
+        <div id="cart">
+            <p>Your cart is empty.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Soft Toys Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
